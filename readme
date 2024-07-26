@@ -1,0 +1,17 @@
+// sourcemap property in tsconfig is useful for debugging typescripts projects like normal we cant see ts files in dev tools if we make sourcemap : true then 
+// we can see ts files and also keep debugger
+
+// OUTDIR, ROOTDIR 
+
+// WHAT OUTDIR WILL DO 
+// if we give outdir : './dist' the compiler will create js files in dist folder 
+// if we give rootdir : './src' only ts files inside src will be consider for compilation
+
+//strict mode 
+
+//noimplicitany : true it will make sure that in ts file all function parameters should have type assignment. if there is no type assignment it will throw
+// error no parameter data implicitly has any types 
+
+//important extensions
+//prettier
+//eslint
